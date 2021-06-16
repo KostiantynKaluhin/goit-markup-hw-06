@@ -443,6 +443,17 @@
             </li>
           </ul>
         </div>
+        <div class="subscribe">
+          <p class="join">Подпишитесь на рассылку</p>
+          <form class="subscribe-form">
+            <input type="email" name="email" placeholder="E-mail" />
+            <button type="submit">
+              Подписаться<svg width="24" height="24">
+                <use href="./images/symbol-defs.svg#subscribe"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -452,6 +463,30 @@
             <use href="./images/symbol-defs.svg#close-black"></use>
           </svg>
         </button>
+
+        <form class="modal-form">
+          <b>Оставьте свои данные, мы вам перезвоним</b>
+          <div class="form-field">
+            <label class="form-lebel">
+              Имя
+              <input name="username" type="text" class="form-input" />
+            </label>
+          </div>
+          <label class="form-lebel"
+            >Телефон
+            <input name="tel" type="tel" class="form-input" />
+          </label>
+          <label class="form-lebel"
+            >Почта
+            <input name="mail" type="email" class="form-input" />
+          </label>
+          <textarea name="comment" placeholder="Введите текст"></textarea>
+          <input name="policy" id="policy" type="checkbox" />
+          <lebel for="policy"
+            >Соглашаюсь с рассылкой и принимаю Условия договора</lebel
+          >
+          <button type="submit">Отправить</button>
+        </form>
       </div>
     </div>
     <script src="./js/model.js"></script>
