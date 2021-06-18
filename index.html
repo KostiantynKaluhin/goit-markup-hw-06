@@ -448,7 +448,7 @@
           <form class="subscribe-form">
             <input
               type="email"
-              name="email"
+              name="user_email"
               placeholder="E-mail"
               class="input-foter"
             />
@@ -483,7 +483,12 @@
           <div class="form-field">
             <label class="form-lebel">
               Телефон
-              <input name="user-tel" type="tel" class="form-input" required />
+              <input
+                name="user-telephone-number"
+                type="tel"
+                class="form-input"
+                required
+              />
               <svg class="form-icon">
                 <use href="./images/symbol-defs.svg#tube"></use>
               </svg>
@@ -514,11 +519,13 @@
           </div>
 
           <label class="checkbox form-lebel">
-            <input name="policy" type="checkbox" class="policy" required />
+            <input name="user-agree" type="checkbox" class="policy" required />
             <svg class="checkbox-icon">
               <use href="./images/symbol-defs.svg#check"></use>
             </svg>
-            Соглашаюсь с рассылкой и принимаю&nbsp;<a href="#" class="agreement-conditions"
+            Соглашаюсь с рассылкой и принимаю&nbsp;<a
+              href="#"
+              class="agreement-conditions"
               >Условия договора</a
             >
           </label>
