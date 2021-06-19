@@ -470,10 +470,10 @@
         </button>
 
         <form class="modal-form">
-          <b class="form-text">Оставьте свои данные, мы вам перезвоним</b>
+          <p class="form-text">Оставьте свои данные, мы вам перезвоним</p>
           <div class="form-field">
             <label class="form-lebel">
-              Имя
+              <p class="form-item">Имя</p>
               <input name="username" type="text" class="form-input" required />
               <svg class="form-icon">
                 <use href="./images/symbol-defs.svg#man"></use>
@@ -482,7 +482,7 @@
           </div>
           <div class="form-field">
             <label class="form-lebel">
-              Телефон
+              <p class="form-item">Телефон</p>
               <input
                 name="user-telephone-number"
                 type="tel"
@@ -496,7 +496,7 @@
           </div>
           <div class="form-field">
             <label class="form-lebel">
-              Почта
+              <p class="form-item">Почта</p>
               <input
                 name="user-email"
                 type="email"
@@ -509,7 +509,9 @@
             </label>
           </div>
           <div class="form-comment">
-            <label for="user-comment" class="comment-text">Комментарий</label>
+            <label for="user-comment" class="comment-text">
+              <p class="form-item">Комментарий</p>
+            </label>
             <textarea
               class="comment"
               name="user-comment"
@@ -523,11 +525,8 @@
             <svg class="checkbox-icon">
               <use href="./images/symbol-defs.svg#check"></use>
             </svg>
-            Соглашаюсь с рассылкой и принимаю&nbsp;<a
-              href="#"
-              class="agreement-conditions"
-              >Условия договора</a
-            >
+            <p class="form-item">Соглашаюсь с рассылкой и принимаю&nbsp;</p>
+            <a href="#" class="agreement-conditions">Условия договора</a>
           </label>
           <button type="submit" class="button btn-submit">Отправить</button>
         </form>
